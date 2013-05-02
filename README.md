@@ -19,7 +19,9 @@ You can also drill down to only certain parts of your codebase like:
 
 Add this line to your application's Gemfile:
 
+    gem 'peek'
     gem 'peek-rblineprof'
+    gem 'rblineprof', github: 'tmm1/rblineprof' 
 
 And then execute:
 
